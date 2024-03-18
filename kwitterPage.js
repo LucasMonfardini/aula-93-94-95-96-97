@@ -71,5 +71,5 @@ function logout()
 {
 localStorage.removeItem("userName"); 
 localStorage.removeItem("roomName"); 
-    window.location.replace = ("index.html"); 
+    window.location = ("index.html"); 
 }
